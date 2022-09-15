@@ -1,53 +1,45 @@
-# AIAI-Anon
+<div align='center'>
+<img src="https://raw.githubusercontent.com/alexandrainst/AIAI-eval/main/gfx/aiai-anon-logo.png" width="auto" height="224">
+</div>
 
-Anonymization and pseudonymization of texts.
+### Anonymization and pseudonymization of texts.
+##### _(pronounced as in "Aye aye captain")_
 
 ______________________________________________________________________
-[![Documentation](https://img.shields.io/badge/docs-passing-green)](https://alexandrainst.github.io/aiai_anon/aiai_anon.html)
-[![License](https://img.shields.io/github/license/alexandrainst/aiai_anon)](https://github.com/alexandrainst/aiai_anon/blob/main/LICENSE)
-[![LastCommit](https://img.shields.io/github/last-commit/alexandrainst/aiai_anon)](https://github.com/alexandrainst/aiai_anon/commits/main)
-[![Code Coverage](https://img.shields.io/badge/Coverage-0%25-red.svg)](https://github.com/alexandrainst/aiai_anon/tree/main/tests)
+[![PyPI Status](https://badge.fury.io/py/aiai_anon.svg)](https://pypi.org/project/aiai_anon/)
+[![Documentation](https://img.shields.io/badge/docs-passing-green)](https://alexandrainst.github.io/AIAI-anon/aiai_anon.html)
+[![License](https://img.shields.io/github/license/alexandrainst/AIAI-anon)](https://github.com/alexandrainst/AIAI-anon/blob/main/LICENSE)
+[![LastCommit](https://img.shields.io/github/last-commit/alexandrainst/AIAI-anon)](https://github.com/alexandrainst/AIAI-anon/commits/main)
+[![Code Coverage](https://img.shields.io/badge/Coverage-81%25-yellowgreen.svg)](https://github.com/alexandrainst/AIAI-anon/tree/main/tests)
 
 
-Developers:
-
-- Dan Saattrup Nielsen (dan.nielsen@alexandra.dk)
-
-
-## Setup
-
-### Set up the environment
-
-1. Run `make install`, which installs Poetry (if it isn't already installed), sets up a virtual environment and all Python dependencies therein.
-2. Run `source .venv/bin/activate` to activate the virtual environment.
-
-### Install new packages
-
-To install new PyPI packages, run:
-
+## Installation
+To install the package simply write the following command in your favorite terminal:
 ```
-$ poetry add <package-name>
+$ pip install aiai-anon
 ```
 
-### Auto-generate API documentation
+## Quickstart
+TODO
 
-To auto-generate API document for your project, run:
 
-```
-$ make docs
-```
+## Contributors
 
-To view the documentation, run:
+If you feel like this package is missing a crucial feature, if you encounter a bug or
+if you just want to correct a typo in this readme file, then we urge you to join the
+community! Have a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) file, where you can
+check out all the ways you can contribute to this package. :sparkles:
 
-```
-$ make view-docs
-```
+- _Your name here?_ :tada:
 
-## Tools used in this project
-* [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Dependency management
-* [hydra](https://hydra.cc/): Manage configuration files
-* [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting
-* [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
+
+## Maintainers
+
+The following are the core maintainers of the `aiai_anon` package:
+
+- [@saattrupdan](https://github.com/saattrupdan) (Dan Saattrup Nielsen; saattrupdan@alexandra.dk)
+- [@AJDERS](https://github.com/AJDERS) (Anders Jess Pedersen; anders.j.pedersen@alexandra.dk)
+
 
 ## Project structure
 ```
@@ -64,13 +56,6 @@ $ make view-docs
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-├── config
-│   ├── __init__.py
-│   ├── config.yaml
-│   ├── model
-│   │   └── model1.yaml
-│   └── process
-│       └── process1.yaml
 ├── data
 │   ├── final
 │   ├── processed
@@ -81,12 +66,11 @@ $ make view-docs
 ├── poetry.toml
 ├── pyproject.toml
 ├── src
-│   ├── scripts
-│   │   ├── fix_dot_env_file.py
-│   │   └── versioning.py
-│   └── aiai_anon
-│       ├── __init__.py
-│       └── demo.py
+│   ├── aiai_anon
+│   │   └── __init__.py
+│   └── scripts
+│       ├── fix_dot_env_file.py
+│       └── versioning.py
 └── tests
     └── __init__.py
 ```

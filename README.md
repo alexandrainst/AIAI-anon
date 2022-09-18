@@ -56,13 +56,7 @@ The following are the core maintainers of the `aiai_anon` package:
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-├── data
-│   ├── final
-│   ├── processed
-│   └── raw
 ├── makefile
-├── models
-├── notebooks
 ├── poetry.toml
 ├── pyproject.toml
 ├── src

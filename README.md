@@ -10,7 +10,7 @@ ______________________________________________________________________
 [![Documentation](https://img.shields.io/badge/docs-passing-green)](https://alexandrainst.github.io/AIAI-anon/aiai_anon.html)
 [![License](https://img.shields.io/github/license/alexandrainst/AIAI-anon)](https://github.com/alexandrainst/AIAI-anon/blob/main/LICENSE)
 [![LastCommit](https://img.shields.io/github/last-commit/alexandrainst/AIAI-anon)](https://github.com/alexandrainst/AIAI-anon/commits/main)
-[![Code Coverage](https://img.shields.io/badge/Coverage-81%25-yellowgreen.svg)](https://github.com/alexandrainst/AIAI-anon/tree/main/tests)
+[![Code Coverage](https://img.shields.io/badge/Coverage-0%25-red.svg)](https://github.com/alexandrainst/AIAI-anon/tree/main/tests)
 
 
 ## Installation

@@ -1,5 +1,5 @@
 <div align='center'>
-<img src="https://raw.githubusercontent.com/alexandrainst/AIAI-eval/main/gfx/aiai-anon-logo.png" width="auto" height="224">
+<img src="https://raw.githubusercontent.com/alexandrainst/AIAI-anon/main/gfx/aiai-anon-logo.png" width="auto" height="224">
 </div>
 
 ### Anonymization and pseudonymization of texts.
